@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayTime - PTO Tracker</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background-color: #ffffff;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
+      }
+      .hero {
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #3498db, #8e44ad);
+        color: white;
+        border-radius: 0 0 20px 20px;
+        margin-bottom: 40px;
+      }
+      .hero h1 {
+        margin: 0 0 15px 0;
+        font-size: 2.5em;
+      }
+      .hero p {
+        font-size: 1.2em;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .card {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid #eee;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      }
+      .card h3 {
+        margin-top: 0;
+        color: #2c3e50;
+      }
+      .card p {
+        color: #7f8c8d;
+        margin-bottom: 0;
+      }
+      footer {
+        margin-top: auto;
+        padding: 40px 0;
+        text-align: center;
+        color: #95a5a6;
+        font-size: 0.9em;
+      }
+      .btn {
+        display: inline-block;
+        background-color: white;
+        color: #3498db;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="container">
+        <h1>PlayTime</h1>
+        <p>
+          The offline-first PTO tracker that helps you plan your time off with
+          confidence.
+        </p>
+        <!-- Optional: Add link to App Store/Play Store here later -->
+        <!-- <a href="#" class="btn">Download App</a> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="links-grid">
+        <a href="privacy.html" class="card">
+          <h3>Privacy Policy</h3>
+          <p>
+            Learn how we handle your data, including your Google Calendar
+            integration and local storage.
+          </p>
+        </a>
+
+        <a href="terms.html" class="card">
+          <h3>Terms of Use</h3>
+          <p>
+            Read our End User License Agreement (EULA) regarding your usage of
+            the PlayTime app.
+          </p>
+        </a>
+
+        <a href="mailto:support@sempurnadev.com" class="card">
+          <h3>Support</h3>
+          <p>
+            Having trouble? Contact our support team directly for assistance at
+            support@sempurnadev.com.
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Sempurna LLC. All rights reserved.</p>
+        <p>PlayTime is a trademark of Sempurna LLC.</p>
+      </div>
+    </footer>
+  </body>
+</html>
